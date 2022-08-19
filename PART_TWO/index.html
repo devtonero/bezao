@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="index.js"></script>
+    <title>Admin</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="#" class="logo">FOODs BY ADMIN</a>
+        <button class="button" id="admin">ADMIN</button>
+    </nav>
+    <main class="food__container" id="main">
+        <section class="container" id="container">
+        </section>
+        <div class="login hide" id="loginmenu">
+            <form class="form">
+                <div class="name">
+                    <label for="adminName">Name</label>
+                    <input type="text" id="name" placeholder="Name">
+                </div>
+                <div class="name">
+                    <label for="adminName">password</label>
+                    <input type="number" id="password" placeholder="password">
+                </div>
+                <button id="login">Login</button>
+            </form>
+        </div>
+        <div class="menusystem hide" id="menuSystem"">
+            <div class=" addFood">
+            <h1>Add food</h1>
+            <form class="forms">
+                <div class="name">
+                    <label for="addname">Food Item</label>
+                    <input type="text" id="addname" placeholder="FoodName">
+                </div>
+                <div class="name">
+                    <label for="addprice">price</label>
+                    <input type="number" id="addprice" placeholder="price">
+                </div>
+                <button type="submit" id="add">Add</button>
+                <button id="logout">Logout</button>
+            </form>
+
+        </div>
+        <div class="removeFood">
+            <h1>Remove food</h1>
+            <div class="remove__display">
+            </div>
+        </div>
+        <div class="displayfood">
+            <h1>Display Added food</h1>
+            <div class="display" id="display">
+            </div>
+        </div>
+        </div>
+    </main>
+    <script src="https://kit.fontawesome.com/eaa63b13b2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
