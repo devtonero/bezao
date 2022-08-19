@@ -1,0 +1,52 @@
+header {
+  background-color: white;
+  box-shadow: 0 2px 5px #eee;
+}
+nav {
+  height: 70px;
+  flex-basis: 30%;
+}
+.navcont {
+  height: 100%;
+  margin: 0 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-basis: 30%;
+}
+ul {
+  display: flex;
+  gap: 60px;
+}
+
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+.icons {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+}
+.signin {
+  margin-right: 10px;
+}
+.icons button {
+  color: #ffffff;
+  width: 129px;
+  height: 40px;
+  background: #da3743;
+  border-radius: 30px;
+}
+.icon {
+  display: flex;
+  gap: 10px;
+}
